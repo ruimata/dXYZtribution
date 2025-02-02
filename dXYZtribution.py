@@ -12,10 +12,10 @@ EVEN_GAPS = "1"
 
 class OBJECT_PT_distribution_panel(bpy.types.Panel):
     bl_idname = "OBJECT_PT_distribution_panel"
-    bl_label = "dYZXtribution options"
+    bl_label = "dXYZtribution options"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_category = "dYZXtribution"
+    bl_category = "dXYZtribution"
 
     def draw(self, context):
         gap_choice = False
@@ -203,7 +203,7 @@ def unregister():
 
 
 bl_info = {
-    "name": "dYZXtribution",
+    "name": "dXYZtribution",
     "description": "Automatically distribute objects in space",
     "author": "atamiur",
     "version": (0, 1, 0),
